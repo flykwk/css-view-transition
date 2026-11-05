@@ -33,6 +33,31 @@ body {
 
 	background-color: var(--background-color);
 }
+nav {
+	display: flex;
+	justify-content: space-between;
+
+	a {
+		display: flex;
+		gap: 5px;
+
+		font-size: 1.5rem;
+		font-weight: 600;
+
+		color: var(--text-color);
+	}
+
+	.inactive {
+		text-decoration: none;
+		pointer-events: none;
+		opacity: 0.4;
+	}
+
+	svg {
+		height: 2rem;
+		fill: var(--text-color);
+	}
+}
 main {
 	flex: 1 1;
 

@@ -11,7 +11,7 @@ html {
     color: var(--text-color);
 }
 
-.container {
+.main {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 2rem;
@@ -56,7 +56,7 @@ html {
 }
 
 .item3 blockquote::after {
-    content: "\201D - Kimi Antonelli";
+    content: "\201D <em> - Kimi Antonelli</em>";
     font-size: 1.25rem;
 }
 
