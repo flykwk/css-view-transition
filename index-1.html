@@ -5,50 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="index-1.css">
     <link rel="stylesheet" href="transition.css">
 </head>
 
 <body>
-    <div class="gallery">
-        <a href="#"><button class="gallery-arrow gallery-arrow--left" aria-label="Previous photos">
-                <span aria-hidden="true">‹</span>
-            </button>
-        </a>
-
-        <div class="main">
+    <div class="nav">
+        <a href="#" class="inactive"><button class="nav-arrow nav-arrow--left"
+                aria-label="Previous profile"></button></a>
+        <main>
             <div class="item1"></div>
             <div class="item2">
-                <span class="intro">United Kingdom | Ferrari</span>
-                <h1>Lewis <strong>Hamilton</strong></h1>
+                <blockquote>
+                    Driving a Scuderia Ferrari HP car for the first time was one of the best feelings of my life.
+                </blockquote>
+                <cite> - Lewis Hamilton</cite>
             </div>
             <div class="item3">
-                <blockquote>Driving a Scuderia Ferrari HP car for the first time was one of the best feelings of my
-                    life.
-                </blockquote>
-
-
+                United Kingdom | Ferrari
+                <h1>Lewis <strong>Hamilton</strong></h1>
+            </div>
+            <div class="item4">
                 <div class="row">
                     <div>Grands Prix Entered</div>
-                    <div>399</div>
+                    <div><strong>399</strong></div>
                 </div>
-
                 <div class="row">
                     <div>Career Points</div>
-                    <div>5277.5</div>
+                    <div><strong>5277.5</strong></div>
                 </div>
-
                 <div class="row">
                     <div>Highest Race Finish</div>
-                    <div>1 (x106)</div>
+                    <div><strong>1 (x106)</strong></div>
                 </div>
             </div>
-
-        </div>
-        <a href="index-2.html"><button class="gallery-arrow gallery-arrow--right" aria-label="Next photos">
-                <span aria-hidden="true">›</span>
-            </button></a>
-
+        </main>
+        <a href="index-2.html"><button class="nav-arrow nav-arrow--right" aria-label="Next profile"></button></a>
     </div>
 
 </body>
