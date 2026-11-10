@@ -1,0 +1,8 @@
+:root {
+    --direction: 1;
+}
+
+.item1 {
+    background-image: url(lewisHamilton.png);
+    background-position: center 40%;
+}

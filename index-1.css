@@ -1,8 +1,0 @@
-:root {
-    --direction: 1;
-}
-
-.item1 {
-    background-image: url(index-1.png);
-    background-position: center 30%;
-}
