@@ -1,7 +1,5 @@
 :root {
 	--img-background-color: rgb(0, 0, 0);
-	--direction: 1;
-	--marker: "🥬";
 	--text-color: #222;
 	--blockquote-font-size: 2rem;
 	--blockquote-font-size2: 1.5rem;
@@ -31,12 +29,6 @@ html {
 
 .item4 {
 	grid-area: stats;
-}
-
-.inactive {
-	text-decoration: none;
-	pointer-events: none;
-	opacity: 0.4;
 }
 
 main {
@@ -166,6 +158,12 @@ main {
 .nav-arrow:hover {
 	background: rgb(0 0 0 / 80%);
 	transform: translateY(-50%) scale(1.08);
+}
+
+.inactive {
+	text-decoration: none;
+	pointer-events: none;
+	opacity: 0.4;
 }
 
 
